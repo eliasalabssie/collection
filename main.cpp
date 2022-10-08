@@ -17,4 +17,5 @@ int main(){
     char m[10] ;//= "Elias AlabssiD";
     char  c [] = "Elias Alabssie";
     cout << m << endl;
+    cout << "this is added in the master branch";
 }
