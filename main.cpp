@@ -3,9 +3,18 @@
 
 using namespace std;
 
+void p(const char* c){
+    int size = strlen(c);
+
+ while(size){
+    cout << *c++;
+    size--;
+ }
+
+
+}
 int main(){
-
-    cout << "hello world" << endl;
-
-    return 0;
+    char m[10] ;//= "Elias AlabssiD";
+    char  c [] = "Elias Alabssie";
+    cout << m << endl;
 }
